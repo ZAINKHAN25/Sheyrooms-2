@@ -25,7 +25,7 @@ export default function RoomCard(props) {
 				<div style={{ float: "right" }}>
 					<button
 						disabled={isDisabled}
-						className="btn btn-dark"
+						className="btn btn-dark me-3"
 						onClick={() => goToSelectedRoom(room._id)}>
 						Book Now
 					</button>
